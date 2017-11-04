@@ -12,6 +12,8 @@
 		294D354A1FAC9C0E003F0358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294D35481FAC9C0E003F0358 /* Main.storyboard */; };
 		294D354C1FAC9C0E003F0358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294D354B1FAC9C0E003F0358 /* Assets.xcassets */; };
 		294D354F1FAC9C0E003F0358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294D354D1FAC9C0E003F0358 /* LaunchScreen.storyboard */; };
+		294D35571FAC9D9D003F0358 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D35561FAC9D9D003F0358 /* RestApiManager.swift */; };
+		294D35591FAC9DE0003F0358 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D35581FAC9DE0003F0358 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		294D354B1FAC9C0E003F0358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		294D354E1FAC9C0E003F0358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		294D35501FAC9C0E003F0358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294D35561FAC9D9D003F0358 /* RestApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		294D35581FAC9DE0003F0358 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				294D354B1FAC9C0E003F0358 /* Assets.xcassets */,
 				294D354D1FAC9C0E003F0358 /* LaunchScreen.storyboard */,
 				294D35501FAC9C0E003F0358 /* Info.plist */,
+				294D35561FAC9D9D003F0358 /* RestApiManager.swift */,
+				294D35581FAC9DE0003F0358 /* SwiftyJSON.swift */,
 			);
 			path = RandomUser;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				294D35471FAC9C0E003F0358 /* ViewController.swift in Sources */,
 				294D35451FAC9C0E003F0358 /* AppDelegate.swift in Sources */,
+				294D35571FAC9D9D003F0358 /* RestApiManager.swift in Sources */,
+				294D35591FAC9DE0003F0358 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
